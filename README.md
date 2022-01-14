@@ -1,7 +1,9 @@
 <center>
-![](public/og.png)
+  
+![](/public/og.png)
 
-# Quick Tech Guides
+  <h1>Quick Tech Guides</h1>
+  
 </center>
 
-For more information, see the [Introduction](src/pages/en/introduction.md).
+For more information, see the [Introduction](/src/pages/en/introduction.md).
