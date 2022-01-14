@@ -13,8 +13,13 @@ export const SIDEBAR = {
 		{ text: 'Basics', header: true },
 		{ text: 'The terminal', link: 'en/basics/terminal' },
 		{ text: 'Getting started with Github', link: 'en/basics/setup-github' },
+
+		{ text: 'How to...', header: true },
+		{ text: 'Get a website on the web', link: 'en/how-to/basic-website' }
 	],
 };
+
+export const COPYRIGHT = "Copyright © " + new Date().getFullYear() + " srg.id.au";
 
 export const OPEN_GRAPH = {
 	image: {

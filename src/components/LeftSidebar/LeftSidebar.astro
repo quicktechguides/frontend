@@ -1,6 +1,6 @@
 ---
 import { getLanguageFromURL } from '../../languages.ts';
-import { SIDEBAR } from '../../config.ts';
+import { SIDEBAR, COPYRIGHT } from '../../config.ts';
 const { currentPage } = Astro.props;
 const currentPageMatch = currentPage.slice(1);
 const langCode = getLanguageFromURL(currentPage);
@@ -34,6 +34,8 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item) => {
 			</li>
 		))}
 	</ul>
+
+	<i class="copyright">{COPYRIGHT}</i>
 </nav>
 
 <script>
@@ -55,7 +57,7 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item) => {
 		padding: 2rem 0;
 		overflow-x: visible;
 		overflow-y: auto;
-		max-height: 100vh;
+		max-height: 80vh;
 	}
 
 	.nav-groups > li + li {
@@ -107,5 +109,12 @@ const sidebarSections = SIDEBAR[langCode].reduce((col, item) => {
 		.nav-groups {
 			padding: 0;
 		}
+	}
+
+	.copyright {
+		font-size: 0.8rem;
+		padding: 0.5rem 1rem;
+		text-align: right;
+		color: gray;
 	}
 </style>
