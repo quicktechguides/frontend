@@ -1,5 +1,6 @@
 <center>
-![Open Graph image](public/og.png)
+![](public/og.png)
+
 # Quick Tech Guides
 </center>
 
