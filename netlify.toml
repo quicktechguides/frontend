@@ -1,0 +1,7 @@
+
+# Redirect / to /en/introduction at the server side.
+# We already do this in JS but this helps with SEO.
+[[redirects]]
+    from = "/"
+    to = "/en/introduction/"
+    status = 301
