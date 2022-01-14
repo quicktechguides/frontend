@@ -5,3 +5,4 @@
     from = "/"
     to = "/en/introduction/"
     status = 301
+    force=true
