@@ -1,6 +1,6 @@
 export const SITE = {
 	title: 'Quick Tech Guides',
-	description: 'short, basic and extendable programming guides for those just getting started.',
+	description: 'Short, basic and extendable programming guides for those just getting started.',
 	defaultLanguage: 'en_US',
 };
 

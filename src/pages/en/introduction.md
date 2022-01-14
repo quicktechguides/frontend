@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: About Quick Tech Guides and how to make this site useful for you.
+description: Short, basic and extendable programming guides for those just getting started.
 layout: ../../layouts/MainLayout.astro
 ---
 
