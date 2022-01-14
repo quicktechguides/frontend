@@ -14,4 +14,10 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
 		// Enable the React renderer, for the Algolia search component
 		'@astrojs/renderer-react',
 	],
+
+	"buildOptions": {
+		"site": "https://guides.cardz.tech",
+		"sitemap": true,
+		"pageUrlFormat": "directory",
+	}
 });

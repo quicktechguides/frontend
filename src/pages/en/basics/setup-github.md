@@ -20,8 +20,20 @@ When you make a change, you need to commit it. This is done by running the comma
 
 ### Pushing
 
-Pushing updates the repository on the internet. This is done by running the command `git push`.
+Pushing updates the repository on the internet (the remote repository). This is done by running the command `git push`.
 
 ## What is [Github](https://github.com)?
 
 Github is a website that helps you manage your code. It implements the version control system Git.
+
+Projects are stored in your user or organization accounts, in a repository.
+
+## Steps to get started
+
+1. Create a Github account
+   You can do this for free at [Github](https://github.com/signup).
+
+2. Familiarize yourself with the Github website. You can find the documentation [here](https://help.github.com/en/github/getting-started-with-github/).
+
+3. Create a new repository by clicking the `+` or visiting https://repo.new
+4. Name this repository whatever you'd like.
